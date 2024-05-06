@@ -1,0 +1,51 @@
+.App {
+  background-color: rgba(150, 60, 0, 1);
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  border: 0.1px solid rgb(230, 230, 230);
+}
+
+.logoimg {
+  width: 100px;
+  height: 100%;
+  padding: 10px;
+}
+
+
+
+/* .button-container:last-child {
+  margin: 20px;
+} */
+
+.button-container img {
+opacity: 0.5; 
+}
+
+.button-container img:hover {
+  opacity: 1.0;
+}
+
+.button-container .cartbtn {
+  width: 100px;
+  height: 100%;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  border: 0.1px solid rgb(230, 230, 230);
+}
+
+/* nth-child(3) */
